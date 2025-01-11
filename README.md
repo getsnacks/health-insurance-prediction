@@ -1,5 +1,5 @@
 # Insurance Charges Prediction
-This project aims to predict insurance charges based on demographic and health data using a machine learning model.
+This project tackles a real-world regression problem by predicting insurance charges based on demographic and health data using machine learning techniques. 
 ## Steps
 ### Data Cleaning
 
