@@ -66,6 +66,19 @@ Predictions made on the validation dataset, with low predictions corrected.
    ```python
    validation_data['predicted_charges'] = predictions
    validation_data.loc[validation_data['predicted_charges'] < 1000, 'predicted_charges'] = 1000
+
+## Analysis
+To explore the relationships between variables, scatter plots can be used.
+
+<img src="https://github.com/user-attachments/assets/c4be6377-ec33-4d24-a9ab-d181d1cff5cb" width="400" height="250">
+<img src="https://github.com/user-attachments/assets/fcf89efa-19f4-4f50-954d-f0c7d4e9b3bb" width="400" height="250">
+<img src="https://github.com/user-attachments/assets/51892cf5-c870-41c2-92f5-30b74d3f49ce" width="400" height="250">
+<img src="https://github.com/user-attachments/assets/d491d3f5-bd81-4ebd-8db5-6fce613960ee" width="400" height="250">
+<img src="https://github.com/user-attachments/assets/f65838a1-1cd1-4ac9-b24f-f13f764d5019" width="400" height="250">
+
+
+
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
